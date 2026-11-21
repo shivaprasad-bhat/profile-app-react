@@ -7,7 +7,9 @@ function Header() {
       <nav className="navigation" aria-label="Main navigation">
         {navigation.map((item) => <a key={item.href} href={item.href}>{item.label}</a>)}
       </nav>
-      <a className="header-link" href={`mailto:${profile.email}`}>Get in touch <span aria-hidden="true">↗</span></a>
+      <a className="header-link" style={{
+        visibility: 'hidden'
+      }} href={`mailto:${profile.email}`}>Get in touch <span aria-hidden="true">↗</span></a>
     </header>
   )
 }

@@ -1,0 +1,19 @@
+{
+  "name": "Shivaprasad Bhat",
+  "short_name": "SB",
+  "icons": [
+    {
+      "src": "/favicon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "/favicon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "theme_color": "#f3f5f2",
+  "background_color": "#f3f5f2",
+  "display": "standalone"
+}
