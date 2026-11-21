@@ -39,7 +39,7 @@ function CertificatesSection() {
 
   return (
     <section className="certificates section-wrap" id="certificates">
-      <SectionLabel number="05">CERTIFICATES</SectionLabel>
+      <SectionLabel number="06">CERTIFICATES</SectionLabel>
       <div className="certificates-content">
         <div className="certificates-heading">
           <h2>Proof of continuous growth<span>.</span></h2>

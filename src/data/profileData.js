@@ -2,6 +2,8 @@ import portrait from '../assets/pictures/shivaprasad.jpeg'
 import aspireCertificate from '../assets/certificates/certificate_aspire.png'
 import digitalUArchitectureCertificate from '../assets/certificates/certificate_digital_u_architecture.png'
 import digitalUEngineeringCertificate from '../assets/certificates/certificate_digtal_u_engineering.png'
+import vantusProjectImage from '../assets/projects/vantus.png'
+import orderExpressProjectImage from '../assets/projects/order_express.png'
 
 export const profile = {
   name: 'Shivaprasad Bhat',
@@ -19,9 +21,37 @@ export const navigation = [
   { label: 'About', href: '#about' },
   { label: 'Skills', href: '#skills' },
   { label: 'Experience', href: '#experience' },
+  { label: 'Projects', href: '#projects' },
   { label: 'Education', href: '#education' },
   { label: 'Certificates', href: '#certificates' },
   { label: 'Contact', href: '#contact' },
+]
+
+export const projects = [
+  {
+    name: 'Vantus HQ',
+    organization: 'Cardinal Health',
+    period: '2023 — Present',
+    image: vantusProjectImage,
+    url: 'https://play.google.com/store/apps/details?id=com.cardinalhealth.vantus&hl=en_IN&pli=1',
+    description: 'A mobile app built for Cardinal Health to support efficient, connected operations through a focused and intuitive experience.',
+  },
+  {
+    name: 'Order Express',
+    organization: 'Cardinal Health',
+    period: '2021 — 2023',
+    image: orderExpressProjectImage,
+    url: 'https://play.google.com/store/apps/details?id=com.cardinalhealth.orderexpress.two&hl=en_IN',
+    description: 'An ecommerce app created for Cardinal Health, designed to make ordering products straightforward, fast, and accessible on mobile.',
+  },
+  {
+    name: 'CryptoTracker',
+    organization: 'Personal Android Project',
+    period: '2024',
+    url: 'https://github.com/shivaprasad-bhat/CryptoTracker',
+    platform: 'GitHub',
+    description: 'An Android app for tracking cryptocurrency prices and market activity with a focused, real-time dashboard experience.',
+  },
 ]
 
 export const certificates = [

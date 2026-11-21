@@ -4,7 +4,7 @@ import SectionLabel from './SectionLabel'
 function EducationSection() {
   return (
     <section className="education section-wrap" id="education">
-      <SectionLabel number="04">EDUCATION</SectionLabel>
+      <SectionLabel number="05">EDUCATION</SectionLabel>
       <div className="education-content">
         <div className="education-heading">
           <h2>Learning shaped the craft<span>.</span></h2>

@@ -3,7 +3,7 @@ import SectionLabel from './SectionLabel'
 function ContactSection() {
   return (
     <section className="contact section-wrap" id="contact">
-      <SectionLabel number="06">CONTACT</SectionLabel>
+      <SectionLabel number="07">CONTACT</SectionLabel>
       <div className="contact-content">
         <h2>Let’s connect<span>.</span></h2>
         <a className="contact-email" href="mailto:shivaprasad.bhat@zohomail.in">shivaprasad.bhat@zohomail.in <span aria-hidden="true">↗</span></a>
